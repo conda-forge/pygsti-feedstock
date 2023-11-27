@@ -28,7 +28,7 @@ requirements:
     - wheel
     - setuptools-scm >=6.2
     - cython
-    - numpy >=1.16.0
+    - numpy
     - pip
   run:
     - python
