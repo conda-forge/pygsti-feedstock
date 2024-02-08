@@ -1,5 +1,5 @@
 {% set name = "pyGSTi" %}
-{% set version = "0.9.12" %}
+{% set version = "0.9.12.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyGSTi-{{ version }}.tar.gz
-  sha256: 121bace8b281e2d34693aec47da51c2c6a0b6bee88d4eead32e858c17f1bb5b2
+  sha256: ec4d1ca5ed9e82aa6b39a2a3039905e1cbf64d31370cb31506468ef5088dc3e3
 
 build:
   skip: true  # [py2k]
