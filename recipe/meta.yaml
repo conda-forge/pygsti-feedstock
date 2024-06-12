@@ -1,5 +1,5 @@
 {% set name = "pyGSTi" %}
-{% set version = "0.9.12.2" %}
+{% set version = "0.9.12.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyGSTi-{{ version }}.tar.gz
-  sha256: 602457b54b31d32545113b41b7b4c6d5453b2ec384badf2b745b246b9c723cb0
+  sha256: 538955e120fb3275c6c022ca607e2f3df71751ca687228eb94b87c6b13c7171d
 
 build:
   skip: true  # [py2k]
@@ -21,6 +21,7 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
     - python
