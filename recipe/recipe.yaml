@@ -42,6 +42,8 @@ requirements:
     - pandas
     - networkx
     - ${{ pin_compatible('numpy') }}
+    # Not in the required dependencies of pyGSTi, but importing pyGSTi requires it
+    - matplotlib
 
 tests:
   - python:
