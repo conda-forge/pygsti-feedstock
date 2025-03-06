@@ -3,7 +3,7 @@ About pygsti-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pygsti-feedstock/blob/main/LICENSE.txt)
 
-Home: http://www.pygsti.info
+Home: http://www.pygsti.info/
 
 Package license: Apache-2.0
 
