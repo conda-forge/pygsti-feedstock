@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyGSTi-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyGSTi-{{ version }}.tar.gz
   sha256: 99b7ec1021087a4e4d2babff4cc035607eabf7a7bc94b228d45e98b95d4208ce
 
 build:
@@ -36,6 +36,7 @@ requirements:
     - scipy
     - plotly
     - pandas
+    - networkx
     - {{ pin_compatible('numpy') }}
 
 test:
