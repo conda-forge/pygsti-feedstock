@@ -41,7 +41,7 @@ requirements:
     - plotly
     - pandas
     - networkx
-    - ${{ pin_compatible('numpy') }}
+    - numpy
     # Not in the required dependencies of pyGSTi, but importing pyGSTi requires it
     - matplotlib-base
 
