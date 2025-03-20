@@ -4,7 +4,7 @@
 
 [project]
 name = "pygsti-feedstock"
-version = "3.46.1"
+version = "3.47.0"
 description = "Pixi configuration for conda-forge/pygsti-feedstock"
 authors = ["@conda-forge/pygsti"]
 channels = ["conda-forge"]
