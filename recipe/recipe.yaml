@@ -42,6 +42,7 @@ requirements:
     - pandas
     - networkx
     - numpy
+    - quantumlib-stim
     # Not in the required dependencies of pyGSTi, but importing pyGSTi requires it
     - matplotlib-base
 
