@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyGSTi
-  version: "0.10"
+  version: "0.10.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | lower }}-${{ version }}.tar.gz
-  sha256: 577f326943c3e4f1f91e95644233b34cf098098d8f4c4379efa344aba99e08dd
+  sha256: 5a444b5a02517ebf5c5ac0a08ca7ef320b60225bbd073179869d70370e2b55b7
 
 build:
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
